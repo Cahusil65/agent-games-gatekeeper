@@ -1,0 +1,5 @@
+node_modules/
+circuits/
+state.json
+state.test.json
+.env
