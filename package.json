@@ -1,0 +1,17 @@
+{
+  "name": "codet-gatekeeper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proof Gatekeeper agent for zkVerify Agent Games Season 01 — codet entry. Deterministic APPROVE/REJECT decisions with local Groth16 proofs (snarkjs + official gatekeeper circuit).",
+  "main": "server.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "fetch-circuits": "node scripts/fetch-circuits.js"
+  },
+  "dependencies": {
+    "js-sha3": "^0.9.3",
+    "snarkjs": "^0.7.6"
+  }
+}
